@@ -5,7 +5,7 @@ fn main() {
     let mut data = HashMap::new();
     let mut book = String::new();
     let mut author = String::new();
-    println!("enter the title of the book");
+    println!("enter the title of the book.");
     io::stdin().read_line(&mut book).expect("Failed to read line");
     println!("enter the author of the book");
     io::stdin().read_line(&mut author).expect("Failed to read line");
